@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+}
+#home h1{
+    font-family: "Londrina Sketch", sans-serif;
+    font-size: 100px;
+    font-weight: 500;
+    overflow: hidden;
+    white-space: no-wrap;
+    transform: translateY(500px);
+}
+@media (max-width:600px) {
+    #home h1{
+        font-size: 60px;
+    }
+}
+p{
+    font-family: "Cormorant Garamond", serif;
+    font-size: large;
+}
+#img1 ,#img4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+#img2{
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+#img3{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 400px;
+}
+#img5{
+    position: absolute;
+    top:17%;
+    left: 70%;
+    height: 250px;
+}
+#img6{
+    position: absolute;
+    top:13%;
+    left: 65%;
+    height: 220px;
+}
+
+#content{
+    padding: 10% 0;
+}
+#content h2{
+    font-family: "Cinzel", serif;
+    font-size: 30px;
+    font-weight: 600;
+    overflow-y: hidden;
+ }
